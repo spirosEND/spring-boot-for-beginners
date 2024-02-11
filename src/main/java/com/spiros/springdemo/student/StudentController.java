@@ -26,8 +26,23 @@ public class StudentController {
                         LocalDate.now(),
                         "psionicv@hotmail.com",
                         42
-                )
+                ),
 
+                new Student(
+                        "George",
+                        "Antipatis",
+                        LocalDate.now(),
+                        "georgeantipatis@hotmail.com",
+                        41
+                ),
+
+                new Student(
+                        "Mike",
+                        "Mixalakeas",
+                        LocalDate.now(),
+                        "mikemixalakeas@hotmail.com",
+                        39
+                )
         );
     }
 }
